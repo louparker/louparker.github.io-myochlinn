@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  font-family: "Frank Ruhl Libre", "Times";
+  background-color: #e5e5e5;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+p {
+  font-family: "Philosopher", "Helvetica";
+}
+
+.content {
+  padding: 2rem;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.shift {
+  margin-left: 60px;
+}
+
+.content__class {
+  width: 65%;
+  float: right;
+}
+
+.content__class1 {
+  width: 65%;
+  margin-left: 10px;
+  margin-top: 25%;
+}
+
+.content__heading1 {
+  position: absolute;
+  margin-left: 1.2rem;
+  margin-top: 5rem;
+  font-size: 7rem;
+}
+
+.content__heading2 {
+  position: absolute;
+  margin-left: 10rem;
+  margin-top: -16.3rem;
+  font-size: 5rem;
+}
+
+.content__heading3 {
+  position: absolute;
+  margin-left: 15rem;
+  margin-top: -9.0rem;
+  font-size: 7rem;
+}
+
+.content__details {
+  font-size: 1.4rem;
+  width: 70%;
+  margin: 60px auto 0px auto;
+}
+
+.content__heading4 {
+  position: absolute;
+  left: 34px;
+  top: 120px;
+}
+
+.content__class2 {
+  width: 20rem;
+  margin-left: 45px;
+}
+
+.content__details1 {
+  margin: 50px auto;
+  width: 320px;
+  text-align: center;
+}
+
+.container {
+  max-width: 430px;
+  margin: 200px auto 0px auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nav {
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  position: absolute;
+  width: 260px;
+  left: -260px;
+  height: 100%;
+  background: rgba(229, 229, 229, 0.5);
+  z-index: 9999;
+}
+
+.open {
+  left: 0px;
+}
+
+.menu {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.menu__item {
+  font-size: 1.4rem;
+  font-family: "Philosopher", "Helvetica";
+  color: #070707;
+  padding: 1.2rem;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  text-align: left;
+}
+
+.menu__item:hover {
+  background: #bebebe;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a:visited {
+  color: #070707;
+}
+
+/**** hamburger icon ****/
+.hamburger {
+  position: absolute;
+  top: 25px;
+  right: -70px;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  background: #222;
+  margin: 6px 0;
+  height: 6px;
+  width: 36px;
+  border-radius: 3px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.change.first-bar {
+  top: 11px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.change.second-bar {
+  opacity: 0;
+}
+
+.change.third-bar {
+  bottom: 13px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.logo__image {
+  width: 85px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 4px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.footer__text {
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.social {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 40px;
+  color: #070707;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.insta {
+  margin: 15px;
+}
+
+.facebook {
+  margin: 15px;
+}
+/*# sourceMappingURL=main.css.map */

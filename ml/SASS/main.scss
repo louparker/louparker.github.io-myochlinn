@@ -1,0 +1,123 @@
+@import 'config', 'resets', 'home', 'contact', 'collections', 'about';
+
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.container {
+    max-width: 430px;
+    margin: 200px auto 0px auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav {
+    transition: 0.3s all ease;
+    position: absolute;
+    width: 260px;
+    left: -260px;
+    height: 100%;
+    background: rgba(229,229,229,0.5);
+    z-index: 9999;
+  }
+
+  .open {
+    left: 0px;
+  }
+
+  .menu {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+  .menu__item {
+    font-size: 1.4rem;
+    font-family: "Philosopher", "Helvetica";
+    color: #070707;
+    padding: 1.2rem;
+    text-transform: uppercase;
+    transition: 0.3s all ease;
+    text-align: left;
+  }
+  .menu__item:hover {
+    background: #bebebe;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  a:visited {
+      color: #070707;
+  }
+
+  /**** hamburger icon ****/
+.hamburger {
+    position: absolute;
+    top: 25px;
+    right: -70px;
+  }
+  .hamburger:hover {
+    cursor: pointer;
+  }
+  .hamburger span {
+    display: block;
+    background: #222;
+    margin: 6px 0;
+    height: 6px;
+    width: 36px;
+    border-radius: 3px;
+    position: relative;
+    transition: 0.3s;
+  }
+  .change.first-bar {
+    top: 11px;
+    transform: rotate(45deg);
+  }
+  .change.second-bar {
+    opacity: 0;
+  }
+  .change.third-bar {
+    bottom: 13px;
+    transform: rotate(-45deg);
+  }
+
+  .logo__image {
+      width: 85px;
+      float: right;
+      margin-right: 15px;
+      margin-top: 4px;
+  }
+
+  .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px;
+      margin-top: 30px;
+  }
+
+  .footer__text {
+      font-size: 1.5rem;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 15px;
+  }
+
+  .social {
+    align-self: center;
+    font-size: 40px;
+    color: #070707;
+    align-items: stretch;
+  }
+
+  .insta {
+    margin: 15px;
+  }
+
+  .facebook {
+    margin: 15px;
+  }
+
