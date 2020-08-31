@@ -81,24 +81,24 @@ p {
 }
 
 .content__heading1 {
-  position: absolute;
-  margin-left: 1.2rem;
-  margin-top: 5rem;
-  font-size: 7rem;
+    position: absolute;
+    margin-top: 16.5vh;
+    font-size: 6rem;
+
 }
 
 .content__heading2 {
-  position: absolute;
-  margin-left: 10rem;
-  margin-top: -16.3rem;
-  font-size: 5rem;
+    position: absolute;
+    margin-left: 33vw;
+    margin-top: -43vh;
+    font-size: 5rem;
 }
 
 .content__heading3 {
-  position: absolute;
-  margin-left: 15rem;
-  margin-top: -9.0rem;
-  font-size: 7rem;
+    position: absolute;
+    margin-left: 49vw;
+    margin-top: -23.0vh;
+    font-size: 6rem;
 }
 
 .content__details {
@@ -259,9 +259,11 @@ a:visited {
 
 .insta {
   margin: 15px;
+  color: #070707;
 }
 
 .facebook {
   margin: 15px;
+  color: #070707;
 }
 /*# sourceMappingURL=main.css.map */
