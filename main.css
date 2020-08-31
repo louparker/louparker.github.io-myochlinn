@@ -41,23 +41,26 @@ p {
 
 .content__heading1 {
     position: absolute;
-    margin-top: 16.5vh;
+    margin-top: 93px;
+    margin-left: 20px;
     font-size: 6rem;
-
+    font-weight: 500;
 }
 
 .content__heading2 {
     position: absolute;
-    margin-left: 33vw;
-    margin-top: -43vh;
+    margin-left: 163px;
+    margin-top: -283px;
     font-size: 5rem;
+    font-weight: 500;
 }
 
 .content__heading3 {
     position: absolute;
-    margin-left: 49vw;
-    margin-top: -23.0vh;
+    margin-left: 249px;
+    margin-top: -160.0px;
     font-size: 6rem;
+    font-weight: 500;
 }
 
 .content__details {
